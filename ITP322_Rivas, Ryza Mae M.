@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITP 322 - File and Web Server</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+
+    .box {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+
+    a {
+      color: #0b66ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .note {
+      margin-top: 20px;
+      padding: 12px;
+      background: #eef5ff;
+      border-left: 4px solid #0b66ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Ryza Mae M. Rivas</h1>
+    <h2>ITP 322 - Systems Administration</h2>
+
+    <p>
+      This website demonstrates file hosting using Supabase Storage and web hosting using a static site host.
+    </p>
+
+    <h3>Files</h3>
+    <ul>
+      <li><a href="https://dasapuzmfwitntoqcpas.supabase.co/storage/v1/object/sign/Ryza/Messenger_creation_C83384ED-99AA-41BB-8758-D9F5EB8E4765.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ODM1Y2Y2Mi04N2U0LTRiODMtYWEwNC0wYzkzMDM0YzgyNDMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJSeXphL01lc3Nlbmdlcl9jcmVhdGlvbl9DODMzODRFRC05OUFBLTQxQkItODc1OC1EOUY1RUI4RTQ3NjUucG5nIiwiaWF0IjoxNzc2NDMyNjU1LCJleHAiOjE3ODE2MTY2NTV9.tBWrAwSJ4sLJGuDH-TeM6OVZgZfl-6EI9Vy-RNEd9JQ>Sample File 1</a></li>
+      <li><a href="https://dasapuzmfwitntoqcpas.supabase.co/storage/v1/object/sign/Ryza/Messenger_creation_E48A3316-4A53-4C6F-9514-FBF46960CEE9.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ODM1Y2Y2Mi04N2U0LTRiODMtYWEwNC0wYzkzMDM0YzgyNDMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJSeXphL01lc3Nlbmdlcl9jcmVhdGlvbl9FNDhBMzMxNi00QTUzLTRDNkYtOTUxNC1GQkY0Njk2MENFRTkucG5nIiwiaWF0IjoxNzc2NDMyNzU2LCJleHAiOjE3ODE2MTY3NTZ9.jnGLS9uJFmE07X9vuxIBEFFISeGqw-MzTF4Nydmaygg.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ODM1Y2Y2Mi04N2U0LTRiODMtYWEwNC0wYzkzMDM0YzgyNDMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJSeXphL01lc3Nlbmdlcl9jcmVhdGlvbl9FNDhBMzMxNi00QTUzLTRDNkYtOTUxNC1GQkY0Njk2MENFRTkucG5nIiwiaWF0IjoxNzc2NDMyNzU2LCJleHAiOjE3ODE2MTY3NTZ9.jnGLS9uJFmE07X9vuxIBEFFISeGqw-MzTF4Ny" target="_blank">Sample File 2</a></li>
+    <h3>Sample Output</h3>
+    <p>
+      Click the file links above to open the hosted files from Supabase Storage.
+    </p>
+
+    <div class="note">
+      Name: Ryza Mae M. Rivas<br>
+      Section: ITP 322 - Systems Administration
+    </div>
+  </div>
+</body>
+</html>
